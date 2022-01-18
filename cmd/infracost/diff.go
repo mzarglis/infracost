@@ -1,10 +1,11 @@
 package main
 
 import (
-	"github.com/infracost/infracost/internal/config"
-	"github.com/infracost/infracost/internal/ui"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
+
+	"github.com/infracost/infracost/internal/config"
+	"github.com/infracost/infracost/internal/ui"
 )
 
 func diffCmd(ctx *config.RunContext) *cobra.Command {
@@ -46,7 +47,7 @@ func diffCmd(ctx *config.RunContext) *cobra.Command {
 
 			ctx.Config.Format = "diff"
 
-			return runMain(cmd, ctx)
+			return runMain(cmd, ctx, nil)
 		},
 	}
 
