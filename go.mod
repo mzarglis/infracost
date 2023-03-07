@@ -41,8 +41,8 @@ require (
 	github.com/stretchr/testify v1.7.0
 	github.com/tidwall/gjson v1.12.1
 	github.com/zclconf/go-cty v1.7.1 // indirect
-	golang.org/x/crypto v0.0.0-20211215165025-cf75a172585e // indirect
-	golang.org/x/mod v0.5.1
+	golang.org/x/crypto v0.1.0 // indirect
+	golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4
 	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
 	gopkg.in/go-playground/assert.v1 v1.2.1
 	gopkg.in/yaml.v2 v2.4.0
@@ -52,7 +52,7 @@ require (
 require (
 	github.com/aws/aws-sdk-go-v2/service/eks v1.16.0
 	github.com/hashicorp/terraform-config-inspect v0.0.0-20210625153042-09f34846faab
-	golang.org/x/sys v0.0.0-20210923061019-b8560ed6a9b7 // indirect
+	golang.org/x/sys v0.1.0 // indirect
 )
 
 require (
@@ -88,22 +88,20 @@ require (
 	github.com/slack-go/slack v0.10.0
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.0 // indirect
-	golang.org/x/text v0.3.6 // indirect
-	golang.org/x/tools v0.1.7 // indirect
-	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
+	golang.org/x/text v0.4.0 // indirect
+	golang.org/x/tools v0.1.12 // indirect
 )
 
 require (
 	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.0.0 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.0.2 // indirect
 	github.com/gorilla/websocket v1.4.2 // indirect
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
+	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4
 )
 
 require (
 	github.com/alecthomas/jsonschema v0.0.0-20211209230136-e2b41affa5c1
 	github.com/google/go-github/v41 v41.0.0
-	github.com/rs/zerolog v1.26.1
 	github.com/shurcooL/githubv4 v0.0.0-20220115235240-a14260e6f8a2
 	github.com/shurcooL/graphql v0.0.0-20200928012149-18c5c3165e3a
 	golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45
@@ -113,7 +111,7 @@ require (
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/iancoleman/orderedmap v0.2.0 // indirect
-	golang.org/x/net v0.0.0-20210805182204-aaa1db679c0d // indirect
+	golang.org/x/net v0.1.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/protobuf v1.26.0 // indirect
 )
