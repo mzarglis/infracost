@@ -3,7 +3,7 @@ module github.com/infracost/infracost
 go 1.17
 
 require (
-	github.com/Masterminds/goutils v1.1.0 // indirect
+	github.com/Masterminds/goutils v1.1.1 // indirect
 	github.com/Masterminds/semver v1.5.0 // indirect
 	github.com/Masterminds/sprig v2.22.0+incompatible
 	github.com/Rhymond/go-money v1.0.3
@@ -103,7 +103,6 @@ require (
 require (
 	github.com/alecthomas/jsonschema v0.0.0-20211209230136-e2b41affa5c1
 	github.com/google/go-github/v41 v41.0.0
-	github.com/rs/zerolog v1.26.1
 	github.com/shurcooL/githubv4 v0.0.0-20220115235240-a14260e6f8a2
 	github.com/shurcooL/graphql v0.0.0-20200928012149-18c5c3165e3a
 	golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45
